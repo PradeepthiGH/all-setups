@@ -3,7 +3,7 @@ sudo apt upgrade -y
 sudo apt install curl wget apt-transport-https -y
 sudo curl -fsSL https://get.docker.com -o get-docker.sh
 sudo sh get-docker.sh
-sudo curl -LO https://storage.googleapis.com/minikube/releases/latest/minikube-linux-amd64
+sudo curl -LO https://github.com/kubernetes/minikube/releases/latest/download/minikube-linux-amd64
 sudo mv minikube-linux-amd64 /usr/local/bin/minikube
 sudo chmod +x /usr/local/bin/minikube
 sudo minikube version
